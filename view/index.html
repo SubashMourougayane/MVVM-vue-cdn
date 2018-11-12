@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue MVVM</title>
+</head>
+<body>
+    <div id="login">
+        <h1>Sample MVVM Vue CDN</h1>
+        <input v-model='uname' type="text" name="username" id="uname" placeholder="UserName"><br><br>
+        <input v-model='pass' type="password" name="password" id="pass" placeholder="Password"><br><br>
+        <button v-on:click="login()">Login</button>
+
+    </div>
+    <script src="../view-model/ViewModel.js"></script>
+
+</body>
+</html>
